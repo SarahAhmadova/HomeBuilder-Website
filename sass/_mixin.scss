@@ -1,0 +1,11 @@
+@mixin hor-list {
+        list-style: none;
+        li{
+            display: inline-block;
+            a{
+                color: forestgreen;
+                background-color: goldenrod;
+                padding: 20px;
+            }
+        }
+}
